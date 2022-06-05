@@ -10,14 +10,14 @@ class Feedback extends Component {
 
     render() {
         return (
-            <div className="s.items">
-            <button type="button" className="s.item">
+            <div className={s.items}>
+            <button type="button" className={s.item}>
                 Good
             </button>
-            <button type="button" className="s.item">
+            <button type="button" className={s.item}>
                 Neutral
             </button>
-            <button type="button" className="s.item">
+            <button type="button" className={s.item}>
                 Bad
             </button>
             </div>
